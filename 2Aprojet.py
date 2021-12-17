@@ -6,6 +6,8 @@ Created on Sun Dec 12 16:41:45 2021
 @author: natalie
 """
 
+#testtttttt
+
 import numpy as np
 import urllib
 import bs4
