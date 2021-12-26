@@ -1,0 +1,22 @@
+On utilise les données du FMI et on complète pour avoir moins de valeurs manquantes avec celles d'Eurostat.
+Données Eurostat téléchargées sur le lien suivant : https://ec.europa.eu/eurostat/databrowser/view/GOV_10A_EXP__custom_1784023/default/table?lang=en
+
+
+
+invest_sport_Eurostat = pd.read_excel("Invest_sport_recreation_culture_religion_Eurostat_domesticcurrency.xlsx", 
+                                      sheet_name="Sheet 1", header=10)
+
+
+
+
+invest_sport_Eurostat.dropna(axis=1, how='all',inplace=True)
+#on supprime les colonnes qui ne continennent aucune valeur, entre chaque année
+
+invest_sport_Eurostat.rename({"TIME": "Country code", "TIME.1": "Country name"}, axis=1, inplace=True)
+#on renomme les deux premières variables
+
+invest_sport_Eurostat.drop(0, axis=0, inplace=True)
+#on supprime la 1ère ligne qui contient juste les anciens noms des deux premières variables
+
+invest_sport_Eurostat.replace([":"], np.nan, inplace=True)
+#les valeurs manquantes étaient représentées par :. On les remplace par NaN
