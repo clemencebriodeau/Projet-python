@@ -18,14 +18,14 @@ Celui-ci a permis d'orienter notre travail en identifiant quatre variables expli
 
 
 
-## Récapitulatif des notebooks :\n
+## Récapitulatif des notebooks :
 
-**- webscrapping_medailles.ipynb** : récupération des données sur les résultats olympiques depuis 1992 par webscrapping \n
-**- Recuperation_donnees.ipynb** : récupération et nettoyage des données de la Banque Mondiale et du FMI (données sur l'investissement dans le sport, la population, et le PIB/hab) \n
-**- Fusion_donnees.ipynb** : fusion de toutes les bases de données pour créer notre base de données de travail \n
-**- Visualisation.ipynb** : visualisation du lien entre le nombre de médailles gagnées aux JO et les différentes variables explicatives \n
-**- Modelisation.ipynb** : Régression linéaire multiple pour quantifier l'impact de chaque variable explicative sur les résultats aux JO \n
+\n **- webscrapping_medailles.ipynb** : récupération des données sur les résultats olympiques depuis 1992 par webscrapping
+\n **- Recuperation_donnees.ipynb** : récupération et nettoyage des données de la Banque Mondiale et du FMI (données sur l'investissement dans le sport, la population, et le PIB/hab)
+\n **- Fusion_donnees.ipynb** : fusion de toutes les bases de données pour créer notre base de données de travail
+\n **- Visualisation.ipynb** : visualisation du lien entre le nombre de médailles gagnées aux JO et les différentes variables explicatives
+\n **- Modelisation.ipynb** : Régression linéaire multiple pour quantifier l'impact de chaque variable explicative sur les résultats aux JO
 
-**Mode d'emploi : **\n
-Ouvrir d'abord le notebook Visualisation puis le notebook Modélisation.
+\n **Mode d'emploi : **
+\n Ouvrir d'abord le notebook Visualisation puis le notebook Modélisation.
 
