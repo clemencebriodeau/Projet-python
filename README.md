@@ -29,7 +29,7 @@ Celui-ci a permis d'orienter notre travail en identifiant quatre variables expli
 
 **- Modelisation.ipynb** : Régression linéaire multiple pour quantifier l'impact de chaque variable explicative sur les résultats aux JO
 
-**Mode d'emploi : **
+**Mode d'emploi :**
 Ouvrir d'abord le notebook Visualisation puis le notebook Modélisation.
 
 
