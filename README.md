@@ -36,7 +36,7 @@ Ouvrir d'abord le notebook Visualisation puis le notebook Modélisation.
 Les résultats obtenus confirment une corrélation positive entre le nombre de médailles obtenues et la taille de la population, ainsi que le PIB/habitant. Concernant la variable "pays hôte", les résultats sont biaisés car : les pays hôtes ont en moyenne des PIB/hab élevés, des investissements dans le sport élevés sur les années autour des JO, et ont des avantages sur le nombre d'athlètes participants, le coefficient est donc surestimé dans ce modèle simple. En revanche, l'espérance de vie à la naissance n'a pas d'impact sur la performance olympique, et le peu de données dont nous disposons sur l'investissement dans le sport ne permet pas de quantifier son impact de manière significative. 
 
 ## Limites :
-Nous n'avons pas trouvé de données sur l'investissement dans le sport pour pouvoir conclure sur l'influence de la variable dans notre modèle. 
+Nous n'avons pas trouvé suffisamment de données sur l'investissement dans le sport pour pouvoir conclure sur l'influence de la variable dans notre modèle. 
 D'autre part, nous avons choisi de n'étudier que les pays qui avaient gagné au moins 1 médailles aux JO depuis 1992, et non tous les pays participants, afin d'établir le lien entre le nombre de médailles et les facteurs choisis. La prise en compte des pays très peuplés qui n'auraient gagné aucune médaille par exemple aurait diminué les coefficients de la régression et n'auraient pas permis de constater le lien existant.
 Enfin, le choix de débuter notre étude en 1992 a facilité notre travail mais une autre piste aurait été de débuter plus tôt, en étudiant éventuellement séparément le bloc soviétique, afin d'avoir davantage de données sur lesquelles nous appuyer.
 
