@@ -21,7 +21,7 @@ Celui-ci a permis d'orienter notre travail en identifiant quatre variables expli
 
 **- webscrapping_medailles.ipynb** : récupération des données sur les résultats olympiques depuis 1992 par webscrapping
 
-**- Recuperation_donnees.ipynb** : récupération et nettoyage des données de la Banque Mondiale et du FMI (données sur l'investissement dans le sport, la population, et le PIB/hab)
+**- Recuperation_donnees.ipynb** : récupération et nettoyage des données de la Banque Mondiale et du FMI (données sur l'investissement dans le sport, la population,le PIB/hab et l'espérance de vie)
 
 **- Fusion_donnees.ipynb** : fusion de toutes les bases de données pour créer notre base de données de travail
 
