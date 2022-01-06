@@ -19,22 +19,16 @@ Celui-ci a permis d'orienter notre travail en identifiant quatre variables expli
 
 ## Récapitulatif des notebooks :
 
-**- webscrapping_medailles.ipynb** : récupération des données sur les résultats olympiques depuis 1992 par webscrapping
-
-**- Recuperation_donnees.ipynb** : récupération et nettoyage des données de la Banque Mondiale et du FMI (données sur l'investissement dans le sport, la population,le PIB/hab et l'espérance de vie)
-
-**- Fusion_donnees.ipynb** : fusion de toutes les bases de données pour créer notre base de données de travail
+**- Recuperation_donnees.ipynb** : récupération des données olympiques par webscrapping, récupération et nettoyage des données de la Banque Mondiale et du FMI (données sur l'investissement dans le sport, la population,le PIB/hab et l'espérance de vie), et fusion des données pour constituer la base de données de travail
 
 **- Visualisation.ipynb** : visualisation du lien entre le nombre de médailles gagnées aux JO et les différentes variables explicatives
 
 **- Modelisation.ipynb** : Régression linéaire multiple pour quantifier l'impact de chaque variable explicative sur les résultats aux JO
 
 **Mode d'emploi :**
-1) exécuter webscrapping_medailles
-2) exécuter Recuperation_donnees
-3) exécuter Fusion_donnees
-4) exécuter Visualisation
-5) exécuter Modélisation
+1) exécuter Recuperation_donnees
+2) exécuter Visualisation
+3) exécuter Modélisation
 
 ## Conclusion : 
 Les résultats obtenus confirment une corrélation positive entre le nombre de médailles obtenues et la taille de la population, ainsi que le PIB/habitant. Concernant la variable "pays hôte", le fait de n'avoir étudié que 8 éditions limite l'interprétation du résultat, le coefficient est très probablement surestimé notamment car les pays qui ont accueilli les JO ces dernières années sont des pays qui habituellement gagnent beaucoup de médailles. En revanche, l'espérance de vie à la naissance n'a pas d'impact sur la performance olympique. Le peu de données dont nous disposons sur l'investissement dans le sport ne permet pas de quantifier son impact de manière précise, néanmoins le coefficient de corrélation positif entre l'investissement et le total des médailles nous montre que plus un pays a investi dans le sport, plus il est performant.
